@@ -1,4 +1,7 @@
 CompMS::Application.routes.draw do
+  resources :competencies
+
+
   get "home/index"
 
   # The priority is based upon order of creation:
